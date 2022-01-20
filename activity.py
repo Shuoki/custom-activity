@@ -18,9 +18,9 @@ shutil.rmtree(path)
 #Запуск активности
 RPC.connect()
 RPC.update(
-    details = "Команда разработчиков Open-Source проектов",
-    state = "me@shuoki.top",
-    large_image = "shuokiteam",
+    details = config.DETAILS,
+    state = config.STATE,
+    large_image = config.LARGE_IMAGE,
     buttons = config.BUTTON
 )
 input()
