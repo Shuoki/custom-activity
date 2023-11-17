@@ -1,5 +1,5 @@
 # https://discord.com/developers/applications
-CLIENT_ID = ""
+CLIENT_ID = 123
 
 # Детали
 DETAILS = "Команда разработчиков Open-Source проектов"
